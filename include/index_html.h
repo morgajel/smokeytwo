@@ -12,7 +12,7 @@ const char * indexPage = R"=====(
                         $("#maxtemp").html(result['maxtemp']);
                         $("#interval").html(result['interval']);
                         $("#t1").html(result['t1']);
-                        $("#t2").html(result['t2']);
+                        $("#meat_temp").html(result['meat_temp']);
                     }});
                 }, 2000);
             });
@@ -43,7 +43,7 @@ const char * indexPage = R"=====(
         <aside>
             <h2> Current State</h2>
             <div>Temperature 1: <span id="t1"></span> &deg;F</div>
-            <div>Temperature 2: <span id="t2"></span> &deg;F</div>
+            <div>Temperature 2: <span id="meat_temp"></span> &deg;F</div>
         </aside>
     </body>
 </html>
